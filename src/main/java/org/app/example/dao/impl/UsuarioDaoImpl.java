@@ -1,6 +1,5 @@
 package org.app.example.dao.impl;
 
-import java.util.ArrayList;
 import java.util.List;
 import javax.ejb.Local;
 import javax.ejb.Stateless;

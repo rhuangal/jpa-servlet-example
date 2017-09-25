@@ -13,7 +13,8 @@
             <property name="eclipselink.logging.connection" value="true" />
             <property name="eclipselink.logging.session" value="true" />
             <property name="eclipselink.logging.thread" value="true" />
-            <property name="eclipselink.logging.timestamp" value="true" />           
+            <property name="eclipselink.logging.timestamp" value="true" />  
+            <!--<property name="eclipselink.logging.logger" value="org.eclipse.persistence.logging.CommonsLoggingSessionLog"/>  --> 
         </properties>
     </persistence-unit>
 </persistence>

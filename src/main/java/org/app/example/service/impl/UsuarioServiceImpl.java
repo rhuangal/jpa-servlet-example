@@ -33,7 +33,8 @@ public class UsuarioServiceImpl implements UsuarioService {
     }
 
     @Override
-    public void delete(Usuario t) {
+    public void delete(String cod) {
+        Usuario t = this.read(cod);
         dao.delete(t);
     }
 
